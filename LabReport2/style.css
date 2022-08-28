@@ -1,0 +1,62 @@
+body {
+  font-family: "Urbanist", sans-serif;
+  background-image: linear-gradient(
+    45deg,
+    rgb(201, 246, 252),
+    rgba(252, 252, 252, 0.544)
+  );
+  padding: 15px;
+}
+
+#h1 {
+  text-align: center;
+  color: blueviolet;
+}
+
+.form {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  background-color: rgb(11, 235, 138);
+  padding: 15px;
+}
+
+.form input {
+  outline: none;
+}
+
+.form button {
+  border: none;
+  padding: 8px;
+  background-color: rgba(255, 255, 255, 0.928);
+  color: rgb(82, 73, 62);
+  border-radius: 5px;
+}
+
+/* Table design */
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+}
+
+#customers td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+  background-color: #ddd;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
